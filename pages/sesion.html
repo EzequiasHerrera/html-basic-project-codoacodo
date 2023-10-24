@@ -8,41 +8,51 @@
   <link rel="stylesheet" href="../css/styles.css">
 </head>
 
-  <body>
-  <header>
-    <section class="header-buttons">
-      <a href="./pages/register.html" class="btn">Registrate aquí</a>
-      <a href="./pages/sesion.html" class="btn">Iniciar sesión</a>
-    </section>
-    <section class="header-menu">
-      <a href="#">
-        <img src="https://store.cloudflare.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt=""
-          class="logo">
-      </a>
-      <div>
-        <a href="#" class="selected">TIENDA</a>
-        <a href="">ACERCA DE</a>
-        <a href="./pages/topweek.html">TOP 10 SEMANAL</a>
-      </div>
-    </section>
-  </header>
-  <main class="registro-container">
-    <div>
-      <form action="" method="POST">
-      <div>
-        <label for="user">Usuario:</label>
-        <input type="text" id="user" name="user" placeholder="User" required>
-      </div>
-      <div>
-          <label for="contrasena">Contraseña:</label>
-          <input type="password" id="contrasena" name="contrasena" placeholder="password" required>
-      </div>
+<body>
+  <div class="container">
+    <header>
+      <section class="header-buttons">
+        <a href="./register.html" class="btn">Registrate aquí</a>
+        <a href="#" class="btn">Iniciar sesión</a>
+      </section>
+      <section class="header-menu">
+        <a href="../index.html">
+          <img src="https://store.cloudflare.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt=""
+            class="logo">
+        </a>
+        <div>
+          <a href="../index.html">TIENDA</a>
+          <a href="">ACERCA DE</a>
+          <a href="./pages/topweek.html">TOP 10 SEMANAL</a>
+        </div>
+      </section>
+    </header>
 
+    <main class="registro-container">
       <div>
-          <button type="submit" class="btn">Iniciar</button>
+        <form class="form-container" action="" method="POST">
+          <h2>LOGUEATE</h2>
+          <div>
+            <label for="user">Usuario:</label>
+            <input type="text" id="user" name="user" placeholder="User" required>
+          </div>
+          <div>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" placeholder="password" required>
+          </div>
+
+          <div>
+            <button type="submit" class="btn-lg">Iniciar</button>
+          </div>
+        </form>
       </div>
-      </form>
-    </div>
-  </main>
-  </body>
+    </main>
+    <footer>
+      <section>
+      </section>
+      <section class="footer-details">
+      </section>
+  </div>
+</body>
+
 </html>
