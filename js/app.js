@@ -1,4 +1,4 @@
-const data = [
+const API_URL=[https://jsonplaceholder.typicode.com/posts
   {
     name: 'Red Dead Redemption 2',
     price: 59.99,
